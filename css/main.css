@@ -69,7 +69,7 @@ body {
 
 body {
 	background: #f5f5f5;
-	font-family: "roboto-regular", sans-serif;
+	font-family: "Chivo", sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: #111111;
@@ -100,7 +100,7 @@ a:focus {
  *
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	color: #151515;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -152,7 +152,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: 'roboto-light', sans-serif;
+	font-family: 'Chivo-light', sans-serif;
 	font-size: 2.4rem;
 	line-height: 1.8;
 	color: #373737;
@@ -170,10 +170,10 @@ em, i, strong, b {
 	font-weight: normal;
 }
 em, i {
-	font-family: 'roboto-italic', sans-serif;
+	font-family: 'Chivo-italic', sans-serif;
 }
 strong, b {
-	font-family: 'roboto-bold', sans-serif;
+	font-family: 'Chivo-bold', sans-serif;
 }
 small {
 	font-size: 1.1rem;
@@ -196,14 +196,14 @@ blockquote:before {
 	left: 0;
 }
 blockquote p {
-	font-family: "roboto-light", sans-serif;
+	font-family: "Chivo-light", sans-serif;
 	padding: 0;
 	font-size: 2.2rem;
 	line-height: 1.75;
 }
 blockquote cite {
 	display: block;
-	font-family: "muli-regular", sans-serif;
+	font-family: "Chivo-regular", sans-serif;
 	font-size: 1.4rem;
 	font-style: normal;
 	line-height: 1.714;
@@ -216,14 +216,14 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "roboto-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
 	color: #2b2b2b;
 }
 var, kbd, samp, code, pre {
-	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+	font-family: Chivo, monospace;
 }
 pre {
 	padding: 2.4rem 3rem 3rem;
@@ -523,7 +523,7 @@ select {
 	outline: none;
 	vertical-align: middle;
 	color: rgba(0, 0, 0, 0.7);
-	font-family: "roboto-regular", sans-serif;
+	font-family: "Chivo-regular", sans-serif;
 	font-size: 1.5rem;
 	line-height: 3rem;
 	max-width: 100%;
@@ -604,7 +604,7 @@ select:focus {
 
 label,
 legend {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
 	color: black;
@@ -619,7 +619,7 @@ input[type="radio"] {
 label > .label-text {
 	display: inline-block;
 	margin-left: 1rem;
-	font-family: "roboto-regular", sans-serif;
+	font-family: "Chivo-regular", sans-serif;
 	line-height: inherit;
 }
 
@@ -665,7 +665,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "montserrat-regular", sans-serif;
+	font-family: "Chivo-regular", sans-serif;
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
@@ -789,7 +789,7 @@ input::-moz-focus-inner {
 	position: relative;
 	margin-bottom: 3rem;
 	border-radius: 3px;
-	font-family: "roboto-regular", sans-serif;
+	font-family: "Chivo-regular", sans-serif;
 	font-size: 1.5rem;
 }
 
@@ -831,7 +831,7 @@ input::-moz-focus-inner {
 	margin: 0;
 	padding: 1.5rem .6rem 0 0;
 	font-size: 8.4rem;
-	font-family: 'roboto-bold', sans-serif;
+	font-family: 'Chivo-bold', sans-serif;
 	line-height: 6rem;
 	text-indent: 0;
 	background: transparent;
@@ -965,7 +965,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 2.5rem;
-	font-family: "roboto-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	border: none;
 	color: #333333;
 }
@@ -978,7 +978,7 @@ input::-moz-focus-inner {
 	display: block;
 	margin: .6rem 0 0 0;
 	font-size: 1.4rem;
-	font-family: "roboto-regular", sans-serif;
+	font-family: "Chivo-regular", sans-serif;
 	color: #888888;
 }
 
@@ -997,7 +997,7 @@ input::-moz-focus-inner {
 }
 
 .pagination .page-numbers {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	font-size: 15px;
 	line-height: 24px;
 	display: inline-block;
@@ -1055,7 +1055,7 @@ input::-moz-focus-inner {
 
 .bricks-wrapper .entry-thumb,
 .bricks-wrapper .entry-text {
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+	
 }
 
 .bricks-wrapper .entry-thumb {
@@ -1073,9 +1073,9 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-thumb .thumb-link::before {
-	content: "";
+	
 	display: block;
-	background: rgba(0, 0, 0, 0.8);
+	
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
@@ -1092,23 +1092,7 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-thumb .thumb-link::after {
-	content: "...";
-	font-family: georgia, serif;
-	font-size: 4.5rem;
-	z-index: 1;
-	display: block;
-	height: 90px;
-	width: 90px;
-	letter-spacing: -2.6px;
-	line-height: 90px;
-	margin-left: -45px;
-	margin-top: -45px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	text-align: center;
-	color: #FFFFFF;
-	opacity: 0;
+	
 	visibility: hidden;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1260,7 +1244,7 @@ input::-moz-focus-inner {
 }
 
 .featured-post-slide .slide-title {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	font-size: 3.8rem;
 	line-height: 1.421;
 	margin-bottom: 3rem;
@@ -1431,7 +1415,7 @@ input::-moz-focus-inner {
 
 .format-quote blockquote p,
 .format-link .link-wrap p {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	padding: 6rem 0 0 0;
 	font-size: 2.2rem;
 	line-height: 1.636;
@@ -1517,14 +1501,14 @@ header {
 	width: 100%;
 	background: #DBDBDB url(../images/escheresque_@2X.png) repeat;
 	background-size: 46px 29px;
-	height: 130px;
+	height: 100px;
 	border-bottom: 1px solid #E5E5E5;
 }
 header .header-content {
 	height: auto;
 	max-width: 1290px;
 	position: absolute;
-	top: 24px;
+	top: 12px;
 	left: 0;
 	right: 0;
 	width: 100%;
@@ -1651,7 +1635,7 @@ header .logo a {
 	display: table;
 	float: right;
 	padding-right: 85px;
-	font-family: "montserrat-regular", sans-serif;
+	font-family: "Chivo-regular", sans-serif;
 	font-size: 15px;
 	height: 78px;
 }
@@ -1692,7 +1676,7 @@ header .logo a {
 .main-navigation li.current > a {
 	border-bottom: 2px solid #151515;
 	color: #000000;
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 }
 
 .main-navigation ul {
@@ -2067,7 +2051,7 @@ header .logo a {
 	color: #000;
 	height: auto;
 	width: 100%;
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	font-size: 6.3rem;
 	line-height: 1.523;
 	letter-spacing: 0.02rem;
@@ -2502,7 +2486,7 @@ footer ul li {
 }
 
 .footer-main .footer-subscribe .subscribe-form .subscribe-message {
-	font-family: "roboto-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	font-size: 1.4rem;
 	color: #000000;
 }
@@ -2709,7 +2693,7 @@ footer ul li {
 	color: #151515;
 	margin-right: 1rem;
 	font-size: 1.5rem;
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 }
 
 .blog-single .tags a {
@@ -2775,7 +2759,7 @@ footer ul li {
 .blog-single .pagenav a {
 	font-size: 2.1rem;
 	line-height: 1.571;
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	border: none;
 	color: #000000;
 }
@@ -2888,7 +2872,7 @@ footer ul li {
 }
 
 .commentlist li .comment-info cite {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	font-size: 1.8rem;
 	font-style: normal;
 	color: #151515;
@@ -2903,7 +2887,7 @@ footer ul li {
 }
 
 .commentlist li .comment-info .comment-meta .reply {
-	font-family: "montserrat-bold", sans-serif;
+	font-family: "Chivo-bold", sans-serif;
 	color: #151515;
 }
 
